@@ -1,6 +1,6 @@
 {
     "name": "codeat3/blade-forkawesome",
-    "description": "A package to easily make use of Fork Awesome Icons in your Laravel Blade views.",
+    "description": " A package to easily make use of \"Fork Awesome Icons\" in your Laravel Blade views.",
     "keywords": ["Blade", "forkawesome", "Laravel"],
     "homepage": "https://github.com/codeat3/blade-forkawesome",
     "license": "MIT",
