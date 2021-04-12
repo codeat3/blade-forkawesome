@@ -7,9 +7,6 @@
 <a href="https://github.com/codeat3/blade-forkawesome/actions?query=workflow%3ATests">
     <img src="https://github.com/codeat3/blade-forkawesome/workflows/Tests/badge.svg" alt="Tests">
 </a>
-<a href="https://github.styleci.io/repos/258753939">
-    <img src="https://github.styleci.io/repos/258753939/shield?style=flat" alt="Code Style">
-</a>
 <a href="https://packagist.org/packages/codeat3/blade-forkawesome">
     <img src="https://img.shields.io/packagist/v/codeat3/blade-forkawesome" alt="Latest Stable Version">
 </a>
@@ -23,8 +20,8 @@ For a full list of available icons see [the SVG directory](resources/svg).
 
 ## Requirements
 
-- PHP 7.4 or higher
-- Laravel 8.0 or higher
+- PHP 7.3 or higher
+- Laravel 7.14 or higher
 
 ## Installation
 
