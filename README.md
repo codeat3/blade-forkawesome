@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/packagist/dt/codeat3/blade-forkawesome" alt="Total Downloads">
 </a>
 
-A package to easily make use of [VSCode Codicons](https://github.com/microsoft/vscode-forkawesomes) in your Laravel Blade views.
+A package to easily make use of [Fork Awesome](https://github.com/ForkAwesome/Fork-Awesome) in your Laravel Blade views.
 
 For a full list of available icons see [the SVG directory](resources/svg).
 
