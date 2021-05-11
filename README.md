@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20Fork%20Awesome%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-forkawesome&pattern=architect&style=style_1&description=A+package+to+use+Fork+Awesome+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Fork Awesome">
+    <img src="./socialcard-blade-forkawesome.png" width="1280" title="Social Card Blade Fork Awesome">
 </p>
 
 # Blade Fork Awesome
@@ -32,6 +32,18 @@ composer require codeat3/blade-forkawesome
 ## Updating
 
 Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
+
+## Blade Icons
+
+Blade Fork Awesome uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+
+## Configuration
+
+Blade Fork Awesome also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-forkawesome.php` config file:
+
+```bash
+php artisan vendor:publish --tag=blade-forkawesome-config
+```
 
 ## Usage
 
@@ -66,10 +78,6 @@ Then use them in your views like:
 ```blade
 <img src="{{ asset('vendor/blade-forkawesome/adjust.svg') }}" width="10" height="10"/>
 ```
-
-### Blade Icons
-
-Blade Fork Awesome uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality.
 
 ## Changelog
 
