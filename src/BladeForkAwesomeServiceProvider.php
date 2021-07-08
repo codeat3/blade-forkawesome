@@ -19,7 +19,6 @@ final class BladeForkAwesomeServiceProvider extends ServiceProvider
 
             $factory->add('forkawesome', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeForkAwesomeServiceProvider extends ServiceProvider
             ], 'blade-forkawesome-config');
         }
     }
-
 }
