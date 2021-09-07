@@ -2,7 +2,10 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-93e5d24a48674064fe75610ba0cbe66104a981d4
+
+## 1.6.1 (2021-08-14)
+* synced with the latest commit [Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome/commit/289abef958b8fc7c2541419a9d521655e225feab)
+
 ## 1.5.1 (2021-08-14)
 * synced with the latest commit [Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome/commit/93e5d24a48674064fe75610ba0cbe66104a981d4)
 
