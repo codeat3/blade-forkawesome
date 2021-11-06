@@ -2,6 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.6.1...main)
 
 ## 1.6.1 (2021-08-14)
 * synced with the latest commit [Fork-Awesome](https://github.com/ForkAwesome/Fork-Awesome/commit/289abef958b8fc7c2541419a9d521655e225feab)
