@@ -17,24 +17,24 @@ final class BladeForkAwesomeServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-forkawesome', []);
 
-            $factory->add('forkawesome', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('forkawesome', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-forkawesome.php', 'blade-forkawesome');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-forkawesome.php', 'blade-forkawesome');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-forkawesome'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-forkawesome'),
             ], 'blade-forkawesome');
 
             $this->publishes([
-                __DIR__.'/../config/blade-forkawesome.php' => $this->app->configPath('blade-forkawesome.php'),
+                __DIR__ . '/../config/blade-forkawesome.php' => $this->app->configPath('blade-forkawesome.php'),
             ], 'blade-forkawesome-config');
         }
     }
