@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.8.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.9.1...HEAD)
+
+## [1.9.1](https://github.com/codeat3/blade-forkawesome/compare/1.8.1...1.9.1) - 2023-02-18
+
+### What's Changed
+
+- Laravel 10 support by @swapnilsarwe in https://github.com/codeat3/blade-forkawesome/pull/15
+
+**Full Changelog**: https://github.com/codeat3/blade-forkawesome/compare/1.8.1...1.9.1
 
 ## [1.8.1](https://github.com/codeat3/blade-forkawesome/compare/1.7.1...1.8.1) - 2022-02-04
 
