@@ -2,7 +2,16 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.9.1...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.9.2...HEAD)
+
+## [1.9.2](https://github.com/codeat3/blade-forkawesome/compare/1.9.1...1.9.2) - 2023-03-10
+
+### What's Changed
+
+- upgrade github action to php82 by @swapnilsarwe in https://github.com/codeat3/blade-forkawesome/pull/16
+- icon updates with correct fill attributes by @swapnilsarwe in https://github.com/codeat3/blade-forkawesome/pull/17
+
+**Full Changelog**: https://github.com/codeat3/blade-forkawesome/compare/1.9.1...1.9.2
 
 ## [1.9.1](https://github.com/codeat3/blade-forkawesome/compare/1.8.1...1.9.1) - 2023-02-18
 
