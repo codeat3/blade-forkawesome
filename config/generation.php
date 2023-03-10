@@ -10,6 +10,22 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
         ->optimize(pre: function (&$svgEl) {
             $svgEl->setAttribute('viewBox', '0 0 1792 1792');
         })
+        ->postOptimizationAsString(function ($svgLine) {
+            $svgLine = str_replace([
+                'fill="#000"',
+                'fill="#100f0d"',
+                'fill="rgb(0,0,0)"',
+                'fill="#12100e"',
+                'fill="#999"',
+            ], 'fill="currentColor"', $svgLine);
+            $svgLine = str_replace([
+                'color="#000"',
+            ], 'color="currentColor"', $svgLine);
+            $svgLine = str_replace([
+                'stroke="#000"',
+            ], 'stroke="currentColor"', $svgLine);
+            return $svgLine;
+        })
         ->save();
 
 };
