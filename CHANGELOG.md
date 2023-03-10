@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.9.2...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.9.3...HEAD)
+
+## [1.9.3](https://github.com/codeat3/blade-forkawesome/compare/1.9.2...1.9.3) - 2023-03-10
+
+### What's Changed
+
+- icon updates with correct fill attributes by @swapnilsarwe in https://github.com/codeat3/blade-forkawesome/pull/18
+
+**Full Changelog**: https://github.com/codeat3/blade-forkawesome/compare/1.9.2...1.9.3
 
 ## [1.9.2](https://github.com/codeat3/blade-forkawesome/compare/1.9.1...1.9.2) - 2023-03-10
 
