@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.10.0...HEAD)
+## [Unreleased](https://github.com/codeat3/blade-forkawesome/compare/1.11.0...HEAD)
+
+## [1.11.0](https://github.com/codeat3/blade-forkawesome/compare/1.10.0...1.11.0) - 2025-02-25
+
+### What's Changed
+
+* laravel 12 support added by @swapnilsarwe in https://github.com/codeat3/blade-forkawesome/pull/26
+
+**Full Changelog**: https://github.com/codeat3/blade-forkawesome/compare/1.10.0...1.11.0
 
 ## [1.10.0](https://github.com/codeat3/blade-forkawesome/compare/1.9.3...1.10.0) - 2024-02-28
 
